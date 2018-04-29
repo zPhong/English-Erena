@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a15520.newdictionary_ver2.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            tools:context=".MainActivity">
+
+            <android.support.design.widget.TabLayout
+                android:background="@drawable/dict_tab"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:tabSelectedTextColor="@color/ColorTheme">
+
+            </android.support.design.widget.TabLayout>
+            <android.support.v4.view.ViewPager
+                android:layout_below="@id/tab_layout"
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+        <!--<TabHost-->
+            <!--android:id="@+id/host"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@drawable/dictsubtab"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TabWidget-->
+                    <!--android:id="@android:id/tabs"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/dict_tab" />-->
+
+                <!--<FrameLayout-->
+                    <!--android:id="@android:id/tabcontent"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent">-->
+                    <!--<include layout="@layout/dict_tab1fragment"/>-->
+
+
+                    <!--<include layout="@layout/dict_tab2fragment"/>-->
+
+
+                <!--</FrameLayout>-->
+            <!--</LinearLayout>-->
+        <!--</TabHost>-->
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

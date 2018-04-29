@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tab2"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tab2_1"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:background="@drawable/dictsubtab"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/etWord2"
+            android:layout_width="231dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="28dp"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="[Type Here]"
+            android:inputType="textPersonName"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/btnSearch2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/btnSearch2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="28dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:drawable/ic_menu_search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/etWord2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/backboard">
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="25dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/dict_boundingview">
+            <ScrollView
+                android:id="@+id/svMean2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="38dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="36dp"
+                android:foregroundGravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tvMean2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="30dp"
+                    android:textColor="@android:color/holo_purple"
+                    android:textSize="20dp" />
+
+
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,227 @@
+﻿-anchovy
+!A small shoaling fish of commercial importance as a food fish and as bait. It is strongly flavoured and is usually preserved in salt and oil.
+
+
+-bacon
+!Cured meat from the back or sides of a pig.
+
+
+-beef
+!The flesh of a cow, bull, or ox, used as food.
+
+
+-beer
+!An alcoholic drink made from yeast-fermented malt flavoured with hops.
+
+
+-bun
+!A small cake, typically containing dried fruit.
+
+
+-butter
+!A pale yellow edible fatty substance made by churning cream and used as a spread or in cooking.
+
+
+-cod
+!A large marine fish with a small barbel on the chin.
+
+
+-coffee
+!A hot drink made from the roasted and ground seeds (coffee beans) of a tropical shrub.
+
+
+-cream
+!The thick white or pale yellow fatty liquid which rises to the top when milk is left to stand and which can be eaten as an accompaniment to desserts or used as a cooking ingredient.
+
+
+-crust
+!The tough outer part of a loaf of bread.
+
+
+-champagne
+!A white sparkling wine from Champagne.
+
+
+-cheese
+!A food made from the pressed curds of milk, firm and elastic or soft and semi-liquid in texture.
+
+
+-chicken
+!A domestic fowl kept for its eggs or meat, especially a young one.
+
+
+-duck
+!A waterbird with a broad blunt bill, short legs, webbed feet, and a waddling gait.
+
+
+-egg
+!An oval or round object laid by a female bird, reptile, fish, or invertebrate, usually containing a developing embryo. The eggs of birds are enclosed in a chalky shell, while those of reptiles are in a leathery membrane.
+
+
+-haddock
+!A silvery-grey bottom-dwelling fish of North Atlantic coastal waters, related to the cod. It is popular as a food fish and is of great commercial value.
+
+
+-ham
+! Salted or smoked meat from the upper part of a pig's leg.
+
+
+-hamburger
+!A flat round cake of minced beef, fried or grilled and typically served in a bread roll garnished with various condiments.
+
+
+-herring
+!A fairly small silvery fish which is most abundant in coastal waters and is of widespread commercial importance.
+
+
+-ketchup
+!A spicy sauce made chiefly from tomatoes and vinegar, used as a relish.
+
+
+-kipper
+!A spicy sauce made chiefly from tomatoes and vinegar, used as a relish.
+
+
+-lamb
+!The flesh of a lamb as food.
+
+
+-liver
+!A large lobed glandular organ in the abdomen of vertebrates, involved in many metabolic processes.
+
+
+-mackerel
+!A predatory marine fish with a greenish-blue back, important as a food fish.
+
+
+-margarine
+!A butter substitute made from vegetable oils or animal fats.
+
+
+-mayonnaise
+!A thick creamy dressing consisting of egg yolks beaten with oil and vinegar and seasoned.
+
+
+-milk
+!An opaque white fluid rich in fat and protein, secreted by female mammals for the nourishment of their young.
+
+
+-mustard
+!A hot-tasting yellow or brown paste made from the crushed seeds of certain plants, typically eaten with meat or used as a cooking ingredient.
+
+
+-patty
+!A small flat cake of minced or finely chopped food, especially meat.
+
+
+-pickle
+!A relish consisting of vegetables or fruit preserved in vinegar or brine.
+
+
+-pie
+!A baked dish of fruit, or meat and vegetables, typically with a top and base of pastry.
+
+
+-pilchard
+!A small, edible, commercially valuable marine fish of the herring family.
+
+
+-popcorn
+!Maize of a variety with hard kernels that swell up and burst open when heated.
+
+
+-pork
+!The flesh of a pig used as food, especially when uncured.
+
+
+-salami
+!A type of highly seasoned sausage, originally from Italy, usually eaten cold in slices.
+
+
+-salmon
+!A large edible fish that is a popular sporting fish, much prized for its pink flesh. Salmon mature in the sea but migrate to freshwater streams to spawn.
+
+
+-sandwich
+!An item of food consisting of two pieces of bread with a filling between them, eaten as a light meal.
+
+
+-soda
+!Carbonated water (originally made with sodium bicarbonate) drunk alone or mixed with alcoholic drinks or fruit juice.
+
+
+-tea
+!A hot drink made by infusing the dried crushed leaves of the tea plant in boiling water.
+
+
+-tuna
+!A large and active predatory schooling fish of warm seas, extensively fished commercially and popular as a game fish.
+
+
+-turkey
+!A large mainly domesticated game bird native to North America, having a bald head and (in the male) red wattles. It is a popular food on festive occasions such as Christmas and (in the US) Thanksgiving.
+
+
+-trout
+!A chiefly freshwater fish of the salmon family, found in both Eurasia and North America and highly valued for food and game.
+
+
+-veal
+!The flesh of a young calf, used as food.
+
+
+-wine
+!An alcoholic drink made from fermented grape juice.
+
+
+-yoghurt
+!A semi-solid sourish food prepared from milk fermented by added bacteria, often sweetened and flavoured.
+
+
+-actor
+!A person whose profession is acting on the stage, in films, or on television.
+
+
+-actress
+!A woman whose profession is acting on stage, in films, or on television.
+
+
+-audience
+!The assembled spectators or listeners at a public event such as a play, film, concert, or meeting.
+
+
+-comedian
+!An entertainer on stage or television whose act is designed to make an audience laugh.
+
+
+-comedy
+!Professional entertainment consisting of jokes and sketches, intended to make an audience laugh.
+
+
+-exhibit
+!Publicly display (a work of art or item of interest) in an art gallery or museum or at a trade fair.
+
+
+-favorite
+!Preferred to all others of the same kind.
+
+
+-hobby
+!An activity done regularly in one's leisure time for pleasure.
+
+
+-massage
+!The rubbing and kneading of muscles and joints of the body with the hands, especially to relieve tension or pain.
+
+
+-orchestra
+!A group of instrumentalists, especially one combining string, woodwind, brass, and percussion sections and playing classical music.
+
+
+-performance
+!An act of presenting a play, concert, or other form of entertainment.
+
+
+-spectator
+
+!A person who watches at a show, game, or other event.

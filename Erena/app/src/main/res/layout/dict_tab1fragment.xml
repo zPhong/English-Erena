@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tab1"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tab1_1"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:background="@drawable/dictsubtab"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/etWord1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="[Type Here]"
+            android:inputType="textPersonName"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/btnSearch1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/btnSearch1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+
+            android:background="@android:drawable/ic_menu_search"
+            app:layout_constraintEnd_toStartOf="@+id/btnAudio"
+            app:layout_constraintStart_toEndOf="@+id/etWord1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/btnAudio"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="25dp"
+            android:background="@android:drawable/ic_btn_speak_now"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toEndOf="@+id/btnSearch1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSpeaker"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_volume_up_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/etWord1"
+            app:layout_constraintEnd_toEndOf="@+id/etWord1"
+            app:layout_constraintTop_toTopOf="@+id/etWord1" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill"
+        android:background="@drawable/backboard"
+        android:foregroundGravity="center_vertical|fill"
+        android:gravity="center_vertical|fill">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/dict_boundingview">
+
+            <ScrollView
+                android:id="@+id/svMean1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="38dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="36dp"
+
+                android:foregroundGravity="center">
+
+
+                <TextView
+                    android:id="@+id/tvMean1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@android:color/holo_purple"
+                    android:textSize="20dp" />
+
+
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

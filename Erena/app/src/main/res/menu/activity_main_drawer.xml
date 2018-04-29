@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dict"
+            android:icon="@drawable/book"
+            android:title="Dictionary" />
+        <item
+            android:id="@+id/nav_advanced"
+            android:icon="@drawable/book2"
+            android:title="Advanced Dictionary" />
+    </group>
+    <item android:title="Game">
+        <menu>
+            <item
+                android:id="@+id/nav_game1"
+                android:icon="@drawable/game"
+                android:title="Babel-Tower" />
+            <item
+                android:id="@+id/nav_game2"
+                android:icon="@drawable/game2"
+                android:title="Fill-Cup" />
+            <item
+                android:id="@+id/nav_game3"
+                android:icon="@drawable/game3"
+                android:title="Choo-Choo-Train" />
+            <item
+                android:id="@+id/nav_ranking"
+                android:icon="@drawable/rank"
+                android:title="Ranking" />
+        </menu>
+    </item>
+    <item android:title="Document">
+        <menu>
+            <item
+                android:id="@+id/nav_idioms"
+                android:icon="@drawable/book2"
+                android:title="Idiom" />
+            <item
+                android:id="@+id/nav_document"
+                android:icon="@drawable/news"
+                android:title="Grammars" />
+
+        </menu>
+    </item>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/mail"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_Sign_out"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sign_out" />
+        </menu>
+    </item>
+
+</menu>

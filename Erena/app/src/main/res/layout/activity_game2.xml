@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a15520.newdictionary_ver2.Game2Activity"
+    android:orientation="vertical"
+    android:background="@color/ColorTheme"
+
+    >
+
+    <!--<TableLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:stretchColumns="0,1"-->
+        <!--&gt;-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:layout_marginTop="2dp">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvScore2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_marginBottom="2dp"-->
+
+                <!--android:gravity="center"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="25dp" />-->
+
+
+ <!---->
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+    <include
+        layout="@layout/content_game2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+
+
+</LinearLayout>

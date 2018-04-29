@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/ColorTheme"
+    android:layout_height="wrap_content"
+    android:id="@+id/idiomlayout"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/tv_idiom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:shadowColor="@color/colorPrimaryDark"/>
+
+    <TextView android:id="@+id/tv_mean_idiom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:shadowColor="@color/colorPrimaryDark"
+        />
+
+
+
+</LinearLayout>

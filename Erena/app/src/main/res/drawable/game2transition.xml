@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/water1" android:duration="200"/>
+    <item android:drawable="@drawable/water2" android:duration="300"/>
+    <item android:drawable="@drawable/water3" android:duration="500"/>
+    <item android:drawable="@drawable/water4" android:duration="300"/>
+    <item android:drawable="@drawable/water5" android:duration="200"/>
+
+</animation-list>
